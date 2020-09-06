@@ -2,8 +2,18 @@
   "name": "parceltest",
   "version": "1.0.0",
   "description": "testing yarn",
-  "main": "index.js",
   "repository": "https://github.com/wingedearth/parceltest.git",
   "author": "Andrew A. Anissi",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
