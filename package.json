@@ -1,0 +1,9 @@
+{
+  "name": "parceltest",
+  "version": "1.0.0",
+  "description": "testing yarn",
+  "main": "index.js",
+  "repository": "https://github.com/wingedearth/parceltest.git",
+  "author": "Andrew A. Anissi",
+  "license": "MIT"
+}
